@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+#navbar{
+    background-color: rgba(255, 255, 255, 0.991);
+    color: black;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav li a:hover{
+    color: #f35525;
+}
+.logo{
+    font-size: 35px;
+    line-height: 80px;
+    font-weight: bold;
+    padding: 100px;
+}
+nav ul{
+    float: right;
+    margin-right: 25px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 20px;
+    margin: 40px;
+    margin-top: 20px;
+
+}
+                                 /* login icon  */
+nav li:last-child a i{
+  background-color: #f35525;
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+  margin-left: -1px;
+}
+nav li:last-child a.login{
+     width: 30px;
+     height: 40px;
+    
+}
+nav:last-child li button{
+    background-color: rgb(171, 164, 164);
+    cursor: pointer;
+}
+nav:last-child li button:active{
+    transform: scale(0.98);
+}
+nav li:last-child a.login:hover{
+    color:#f35525
+
+}
+
+.image{
+    background-image: url(faria.jpeg);
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 120px;
+}
+.div{
+    color: black;
+    background-color: white;
+    padding: 7px 12px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+#heading{
+    color: white;
+    font-size:  28px;
+}
+#main{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+#first-part{
+    width: 60%;
+}
+#second-part{
+    box-shadow: 5px 5px 10px gray;
+    width: 40%;
+    padding: 40px 30px;
+    border-radius: 10px;
+    margin-right: 50px;
+    
+}
+.head{
+    color: orange;
+    margin-left: 50px;
+    margin-right: 200px ;
+    font-size: medium;
+}
+#main-heading{
+    font-size: 40px;
+    margin-left:50px ;
+    margin-right: 200px;
+}
+
+.item_phone{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 80px;
+    padding: 35px 30px;
+    box-shadow:5px 5px 10px grey;
+    border-radius: 10px;
+    margin-right: 300px;
+
+}
+#dif{
+    margin-left: 20px;
+    font-size: larger;
+    font-weight: 100px;
+}
+span{
+    color:grey;
+    font-size: smaller;
+}
+.item_email{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 300px;
+    display: flex;
+    box-shadow: 5px 5px 10px grey;
+    padding: 35px 30px;
+    border-radius: 10px;
+    
+}
+
+#diff{
+    margin-left: 20px;
+    font-weight: 100px;
+    font-size: larger;
+}
+#para{
+    margin-left:50px ;
+    margin-right: 200px;
+    font-weight: 10px;
+    font-size: large;
+    
+}
+#sub{
+    color: black;
+    font-size: medium;
+}
+input{
+    width:50% ;
+    border-radius: 22px;
+    margin-top: 15px;
+    height: 44px;
+    background-color: #f6f6f6;
+   font-size: 14px;
+   padding: 0px 20px;
+   width: 100%;
+   border: none;
+   margin-bottom: 15px;
+}
+textarea{
+    width: 100%;
+    height:150px ;
+    margin-bottom: 40px;
+    border-radius:22px ;
+    padding:15px 15px;
+    border: none;
+    background-color: #f6f6f6;
+    max-height: 180px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+label{
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: #1e1e1e;
+    height: 44px;
+    border-radius: 22px;
+    padding: 0px 20px;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500px;
+}
+button:hover{
+     background-color: orangered;
+}
+#map{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 250px;
+    width: 800px;
+    border-radius: 15px;
+}
+footer{
+    background-color: #1e1e1e;
+    color: #eeeeee;
+    height: 80px;
+}
+#footer-heading{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 30px;
+}
+body{
+    flex-direction: row;
+}
+ @media screen and (max-width:500px) {
+    body{
+        flex-direction: column;
+    }
+ }   
